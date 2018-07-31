@@ -58,12 +58,12 @@ if __name__ == '__main__':
 
 	# Method to get data from .json file
 	obj.getData("Dependencies.json")
+	
+	# Method to install the dependencies mentioned in .json file
+	obj.getJsonDependenciesInstalled()
 
 	# Method to get existing Dependencies
 	obj.getExistedDependencies()
-
-	# Method to install the dependencies mentioned in .json file
-	obj.getJsonDependenciesInstalled()
 
 	# Method to check installations have been sucessful of not.
 	obj.checkAnyUninstalled()
