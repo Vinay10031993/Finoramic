@@ -22,11 +22,11 @@ class Script:
 #  Get the existing dependencies 
 	def getExistedDependencies(self):
 		
-		installed_packages = pip.get_installed_distributions(local_only=True)
-		installed_packages_list = sorted(["%s==%s" % (i.key, i.version)
-			for i in installed_packages])
+		d_packages = pip.get_installed_distributions(local_only=True)
+		d_packages_list = sorted(["%s==%s" % (i.key, i.version)
+			for i in d_packages])
 
-		for ele in installed_packages_list:
+		for ele in d_packages_list:
 			var=ele.split("==")
 			self.existdicts[var[0]]=var[1]
 
