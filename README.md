@@ -3,6 +3,6 @@ Most of the programming languages have tools to manually define project dependen
 
 Note1: If scripting in Python,Pip version should be 9.0.1.
 
-Note2: Script is written for Windows.For Ubuntu, just make a change in the code at cmd = "sudo pip install "
+Note2: Script is written for Windows Operating System.For Ubuntu OS, just make a change in the code at cmd = "sudo pip install "
 
 
