@@ -39,7 +39,7 @@ class Script:
 	def checkAnyUninstalled(self,):
 		for i,j in self.dicElem.items():
 			if i in self.existdicts:
-				if j==self.dicElem[i]:
+				if j==self.existdicts[i]:
 					print(i+" is successfully installed\n")
 				else:
 					self.dict3[i]=j;
